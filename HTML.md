@@ -34,3 +34,9 @@ HTML (HyperText Markup Language) est le langage utilisé pour structurer le cont
 - `<em>` : Texte en italique
 - `<br>` : Saut de ligne
 - `<hr>` : Ligne horizontale
+
+## 🔗 Liens et Médias
+- `<a href="URL">` : Lien hypertexte
+- `<img src="image.jpg" alt="Description">` : Image
+- `<video src="video.mp4" controls>` : Vidéo
+- `<audio src="audio.mp3" controls>` : Audio
