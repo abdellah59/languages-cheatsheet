@@ -40,3 +40,19 @@ HTML (HyperText Markup Language) est le langage utilisé pour structurer le cont
 - `<img src="image.jpg" alt="Description">` : Image
 - `<video src="video.mp4" controls>` : Vidéo
 - `<audio src="audio.mp3" controls>` : Audio
+
+### 📦 Listes
+- Liste ordonnée :
+  ```html
+  <ol>
+      <li>Élément 1</li>
+      <li>Élément 2</li>
+  </ol>
+  ```
+- Liste non ordonnée :
+  ```html
+  <ul>
+      <li>Élément A</li>
+      <li>Élément B</li>
+  </ul>
+  ```
