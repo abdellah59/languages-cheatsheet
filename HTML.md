@@ -19,3 +19,18 @@ HTML (HyperText Markup Language) est le langage utilisé pour structurer le cont
 </body>
 </html>
 ```
+## 🔖 Principales balises HTML
+
+### 📂 Structure
+- `<!DOCTYPE html>` : Déclare la version HTML5
+- `<html>` : Élément racine
+- `<head>` : Métadonnées
+- `<body>` : Contenu visible
+
+### 🏷 Titres et Textes
+- `<h1>` à `<h6>` : Titres (h1 = plus important)
+- `<p>` : Paragraphe
+- `<strong>` : Texte en gras
+- `<em>` : Texte en italique
+- `<br>` : Saut de ligne
+- `<hr>` : Ligne horizontale
