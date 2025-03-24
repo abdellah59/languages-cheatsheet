@@ -56,3 +56,16 @@ HTML (HyperText Markup Language) est le langage utilisé pour structurer le cont
       <li>Élément B</li>
   </ul>
   ```
+
+  ## 🏗️ Parents et Enfants
+Les balises HTML suivent une structure parent/enfant. Exemple :
+```html
+<div>
+    <p>Texte dans un div</p>
+</div>
+```
+
+## 🔗 Liens utiles
+- [MDN HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
+- [W3Schools HTML](https://www.w3schools.com/html/)
+
