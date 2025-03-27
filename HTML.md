@@ -65,7 +65,7 @@ Les balises HTML suivent une structure parent/enfant. Exemple :
 </div>
 ```
 
-## 📊 Tableaux
+### 📊 Tableaux
 Les tableaux permettent d'organiser des données sous forme de grille.
 
 ```html
@@ -91,6 +91,11 @@ Les tableaux permettent d'organiser des données sous forme de grille.
     - <th> : Définit une cellule d’en-tête (gras et centré par défaut) 
     - <td> : Définit une cellule standard
 
+🔹 Fusionner des cellules
+```html
+<td colspan="2">Fusion de 2 colonnes</td> <!-- Fusion horizontale -->
+<td rowspan="2">Fusion de 2 lignes</td> <!-- Fusion verticale -->
+```
 
 ## 🔤 Inputs
 
@@ -111,6 +116,30 @@ Les inputs permettent de récupérer des données utilisateur via un formulaire.
     - required : Rend l’input obligatoire
     - min, max : Définit les valeurs minimales et maximales
     - step : Incrémente une valeur (ex. step="2" pour des valeurs paires)
+
+## 3. Les Formulaires et la Validation
+
+Un formulaire est défini par```<form>```. Il permet d’envoyer des données via GET ou POST.
+
+```html
+<form action="traitement.php" method="POST">
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required>
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+
+    <input type="submit" value="Envoyer">
+</form>
+
+```
+
+    📌 Attributs importants :
+
+    - action : URL où envoyer les données
+    - method="GET" : Affiche les données dans l’URL
+    - method="POST" : Envoie les données en arrière-plan
+    - required : Rend un champ obligatoire
 
 
 
