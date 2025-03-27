@@ -141,7 +141,27 @@ Un formulaire est défini par```<form>```. Il permet d’envoyer des données vi
     - method="POST" : Envoie les données en arrière-plan
     - required : Rend un champ obligatoire
 
+## Dropdowns, Boutons Radio et Checkbox
 
+🎚 Liste déroulante (Dropdown)
+
+```html
+<select name="pays">
+    <option value="france">France</option>
+    <option value="canada">Canada</option>
+    <option value="japon">Japon</option>
+</select>
+```
+
+🎯 Boutons radio (choix unique)
+
+<input type="radio" id="homme" name="genre" value="homme">
+<label for="homme">Homme</label>
+
+<input type="radio" id="femme" name="genre" value="femme">
+<label for="femme">Femme</label>
+
+📌 Tous les boutons radio d’un même groupe doivent avoir le même name pour un choix unique.
 
 
 ## 🔗 Liens utiles
