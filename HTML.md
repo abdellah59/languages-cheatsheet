@@ -66,6 +66,8 @@ Les balises HTML suivent une structure parent/enfant. Exemple :
 ```
 
 ## 📊 Tableaux
+Les tableaux permettent d'organiser des données sous forme de grille.
+
 ```html
 <table border="1">
     <tr>
@@ -77,9 +79,40 @@ Les balises HTML suivent une structure parent/enfant. Exemple :
         <td>Jean</td>
         <td>25</td>
         <td>Paris</td>
-    </tr>
+    </tr>M
 </table>
 ```
+    📌 Balises importantes :
+
+    - <table> : Définit un tableau
+    - <thead> : Regroupe l'en-tête du tableau
+    - <tbody> : Contient les lignes du tableau
+    - <tr> : Définit une ligne 
+    - <th> : Définit une cellule d’en-tête (gras et centré par défaut) 
+    - <td> : Définit une cellule standard
+
+
+## 🔤 Inputs
+
+Les inputs permettent de récupérer des données utilisateur via un formulaire.
+
+```html
+<input type="text" placeholder="Votre nom">
+<input type="email" placeholder="Votre email">
+<input type="password" placeholder="Mot de passe">
+<input type="number" min="1" max="100">
+<input type="date">
+<input type="file">
+<input type="color">
+```
+    📌 Attributs importants :
+
+    - placeholder : Texte indicatif dans l'input
+    - required : Rend l’input obligatoire
+    - min, max : Définit les valeurs minimales et maximales
+    - step : Incrémente une valeur (ex. step="2" pour des valeurs paires)
+
+
 
 
 ## 🔗 Liens utiles
