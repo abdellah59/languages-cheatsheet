@@ -1,9 +1,16 @@
 # 📝 Cheat Sheet HTML
 
-## 📌 Introduction
+## Table des matieres : 
+
+### 1. [Introduction](#1-introduction)
+### 2. [Principales balises HTML](#2-principales-balises-html)
+### 2. [HTML Sémantique](#3-html-sémantique)
+
+
+# 1. Introduction
 HTML (HyperText Markup Language) est le langage utilisé pour structurer le contenu des pages web.
 
-## 🛠 Structure de base
+### Structure de base 
 
 ```html
 <!DOCTYPE html>
@@ -19,15 +26,15 @@ HTML (HyperText Markup Language) est le langage utilisé pour structurer le cont
 </body>
 </html>
 ```
-## 🔖 Principales balises HTML
+# 2. Principales balises HTML
 
-### 📂 Structure
+## 📂 Structure
 - `<!DOCTYPE html>` : Déclare la version HTML5
 - `<html>` : Élément racine
 - `<head>` : Métadonnées
 - `<body>` : Contenu visible
 
-### 🏷 Titres et Textes
+## 🏷 Titres et Textes
 - `<h1>` à `<h6>` : Titres (h1 = plus important)
 - `<p>` : Paragraphe
 - `<strong>` : Texte en gras
@@ -41,7 +48,7 @@ HTML (HyperText Markup Language) est le langage utilisé pour structurer le cont
 - `<video src="video.mp4" controls>` : Vidéo
 - `<audio src="audio.mp3" controls>` : Audio
 
-### 📦 Listes
+## 📦 Listes
 - Liste ordonnée :
   ```html
   <ol>
@@ -65,7 +72,7 @@ Les balises HTML suivent une structure parent/enfant. Exemple :
 </div>
 ```
 
-### 📊 Tableaux
+## 📊 Tableaux
 Les tableaux permettent d'organiser des données sous forme de grille.
 
 ```html
@@ -117,7 +124,7 @@ Les inputs permettent de récupérer des données utilisateur via un formulaire.
     - min, max : Définit les valeurs minimales et maximales
     - step : Incrémente une valeur (ex. step="2" pour des valeurs paires)
 
-## 3. Les Formulaires et la Validation
+## Les Formulaires et la Validation
 
 Un formulaire est défini par```<form>```. Il permet d’envoyer des données via GET ou POST.
 
@@ -175,7 +182,7 @@ Un formulaire est défini par```<form>```. Il permet d’envoyer des données vi
     📌 Chaque checkbox fonctionne indépendamment contrairement aux boutons radio.
 
 
-## 6. Insérer une Vidéo en HTML
+## Insérer une Vidéo en HTML
 
 - Vidéo YouTube
 ```html 
@@ -196,7 +203,7 @@ Un formulaire est défini par```<form>```. Il permet d’envoyer des données vi
     - muted : Désactive le son
 
 
-# Le HTML sémantique 
+# 3. HTML Sémantique 
 
 Le HTML sémantique désigne une approche du HTML où l'on utilise des balises ayant une signification explicite sur le contenu qu'elles contiennent. Cela permet aux navigateurs, moteurs de recherche et technologies d’assistance (comme les lecteurs d’écran) de mieux comprendre la structure et la nature du contenu d’une page web.
 
@@ -209,8 +216,11 @@ Le HTML sémantique désigne une approche du HTML où l'on utilise des balises a
     ✔ Maintenance et collaboration facilitées : Le code est plus compréhensible et organisé.
 
     ✔ Respect des standards du web : Cela permet de créer des sites plus performants et évolutifs.
+
+
     
-## 🔗 Liens utiles
+
+# 🔗 Liens utiles
 - [MDN HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
 - [W3Schools HTML](https://www.w3schools.com/html/)
 
