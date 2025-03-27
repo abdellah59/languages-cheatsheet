@@ -195,6 +195,20 @@ Un formulaire est défini par```<form>```. Il permet d’envoyer des données vi
     - loop : Lit en boucle
     - muted : Désactive le son
 
+
+# Le HTML sémantique 
+
+Le HTML sémantique désigne une approche du HTML où l'on utilise des balises ayant une signification explicite sur le contenu qu'elles contiennent. Cela permet aux navigateurs, moteurs de recherche et technologies d’assistance (comme les lecteurs d’écran) de mieux comprendre la structure et la nature du contenu d’une page web.
+
+    Pourquoi utiliser le HTML sémantique ?
+
+    ✔ Meilleure accessibilité : Les personnes utilisant des lecteurs d'écran peuvent mieux naviguer sur le site.
+
+    ✔ Amélioration du référencement (SEO) : Google comprend mieux le contenu et l'indexe plus efficacement.
+
+    ✔ Maintenance et collaboration facilitées : Le code est plus compréhensible et organisé.
+
+    ✔ Respect des standards du web : Cela permet de créer des sites plus performants et évolutifs.
     
 ## 🔗 Liens utiles
 - [MDN HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
