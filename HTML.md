@@ -181,7 +181,21 @@ Un formulaire est défini par```<form>```. Il permet d’envoyer des données vi
 ```html 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ID_DE_LA_VIDEO" allowfullscreen></iframe>
 ```
+- Vdéo locale
+```html
+<video controls>
+    <source src="video.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la vidéo.
+</video>
+```
+    📌 Attributs utiles :
 
+    - controls : Affiche les boutons de lecture
+    - autoplay : Démarre la lecture automsatique
+    - loop : Lit en boucle
+    - muted : Désactive le son
+
+    
 ## 🔗 Liens utiles
 - [MDN HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
 - [W3Schools HTML](https://www.w3schools.com/html/)
