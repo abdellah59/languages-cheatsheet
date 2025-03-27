@@ -13,7 +13,7 @@
 
 ➡ Ajoute du dynamisme sur son projet (animations, interactions utilisateur...).
 
-## Auteurs
+## Auteurs 
 
 #### Abdellah
 
