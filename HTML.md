@@ -1,9 +1,16 @@
 # 📝 Cheat Sheet HTML
 
-## 📌 Introduction
+## Table des matieres : 
+
+### 1. [Introduction](#1-introduction)
+### 2. [Principales balises HTML](#2-principales-balises-html)
+### 2. [HTML Sémantique](#3-html-sémantique)
+
+
+# 1. Introduction
 HTML (HyperText Markup Language) est le langage utilisé pour structurer le contenu des pages web.
 
-## 🛠 Structure de base
+### Structure de base 
 
 ```html
 <!DOCTYPE html>
@@ -19,15 +26,15 @@ HTML (HyperText Markup Language) est le langage utilisé pour structurer le cont
 </body>
 </html>
 ```
-## 🔖 Principales balises HTML
+# 2. Principales balises HTML
 
-### 📂 Structure
+## 📂 Structure
 - `<!DOCTYPE html>` : Déclare la version HTML5
 - `<html>` : Élément racine
 - `<head>` : Métadonnées
 - `<body>` : Contenu visible
 
-### 🏷 Titres et Textes
+## 🏷 Titres et Textes
 - `<h1>` à `<h6>` : Titres (h1 = plus important)
 - `<p>` : Paragraphe
 - `<strong>` : Texte en gras
@@ -41,7 +48,7 @@ HTML (HyperText Markup Language) est le langage utilisé pour structurer le cont
 - `<video src="video.mp4" controls>` : Vidéo
 - `<audio src="audio.mp3" controls>` : Audio
 
-### 📦 Listes
+## 📦 Listes
 - Liste ordonnée :
   ```html
   <ol>
@@ -57,7 +64,7 @@ HTML (HyperText Markup Language) est le langage utilisé pour structurer le cont
   </ul>
   ```
 
-  ## 🏗️ Parents et Enfants
+## 🏗️ Parents et Enfants
 Les balises HTML suivent une structure parent/enfant. Exemple :
 ```html
 <div>
@@ -65,7 +72,167 @@ Les balises HTML suivent une structure parent/enfant. Exemple :
 </div>
 ```
 
-## 🔗 Liens utiles
+## 📊 Tableaux
+Les tableaux permettent d'organiser des données sous forme de grille.
+
+```html
+<table border="1">
+    <tr>
+        <th>Nom</th>
+        <th>Âge</th>
+        <th>Ville</th>
+    </tr>
+    <tr>
+        <td>Jean</td>
+        <td>25</td>
+        <td>Paris</td>
+    </tr>M
+</table>
+```
+    📌 Balises importantes :
+
+    - <table> : Définit un tableau
+    - <thead> : Regroupe l'en-tête du tableau
+    - <tbody> : Contient les lignes du tableau
+    - <tr> : Définit une ligne 
+    - <th> : Définit une cellule d’en-tête (gras et centré par défaut) 
+    - <td> : Définit une cellule standard
+
+🔹 Fusionner des cellules
+```html
+<td colspan="2">Fusion de 2 colonnes</td> <!-- Fusion horizontale -->
+<td rowspan="2">Fusion de 2 lignes</td> <!-- Fusion verticale -->
+```
+
+## 🔤 Inputs
+
+Les inputs permettent de récupérer des données utilisateur via un formulaire.
+
+```html
+<input type="text" placeholder="Votre nom">
+<input type="email" placeholder="Votre email">
+<input type="password" placeholder="Mot de passe">
+<input type="number" min="1" max="100">
+<input type="date">
+<input type="file">
+<input type="color">
+```
+    📌 Attributs importants :
+
+    - placeholder : Texte indicatif dans l'input
+    - required : Rend l’input obligatoire
+    - min, max : Définit les valeurs minimales et maximales
+    - step : Incrémente une valeur (ex. step="2" pour des valeurs paires)
+
+## Les Formulaires et la Validation
+
+Un formulaire est défini par```<form>```. Il permet d’envoyer des données via GET ou POST.
+
+```html
+<form action="traitement.php" method="POST">
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required>
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+
+    <input type="submit" value="Envoyer">
+</form>
+
+```
+
+    📌 Attributs importants :
+
+    - action : URL où envoyer les données
+    - method="GET" : Affiche les données dans l’URL
+    - method="POST" : Envoie les données en arrière-plan
+    - required : Rend un champ obligatoire
+
+## Dropdowns, Boutons Radio et Checkbox
+
+🎚 Liste déroulante (Dropdown)
+
+```html
+<select name="pays">
+    <option value="france">France</option>
+    <option value="canada">Canada</option>
+    <option value="japon">Japon</option>
+</select>
+```
+
+- Boutons radio (choix unique)
+```html
+<input type="radio" id="homme" name="genre" value="homme">
+<label for="homme">Homme</label>
+
+<input type="radio" id="femme" name="genre" value="femme">
+<label for="femme">Femme</label>
+```
+    📌 Tous les boutons radio d’un même groupe doivent avoir le même name pour un choix unique.
+
+
+- Checkbox (choix multiples)
+```html
+<input type="checkbox" id="voiture" name="transport" value="voiture">
+<label for="voiture">Voiture</label>
+
+<input type="checkbox" id="velo" name="transport" value="velo">
+<label for="velo">Vélo</label>
+```
+    📌 Chaque checkbox fonctionne indépendamment contrairement aux boutons radio.
+
+
+## Insérer une Vidéo en HTML
+
+- Vidéo YouTube
+```html 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ID_DE_LA_VIDEO" allowfullscreen></iframe>
+```
+- Vdéo locale
+```html
+<video controls>
+    <source src="video.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la vidéo.
+</video>
+```
+    📌 Attributs utiles :
+
+    - controls : Affiche les boutons de lecture
+    - autoplay : Démarre la lecture automsatique
+    - loop : Lit en boucle
+    - muted : Désactive le son
+
+
+# 3. HTML Sémantique 
+
+Le HTML sémantique désigne une approche du HTML où l'on utilise des balises ayant une signification explicite sur le contenu qu'elles contiennent. Cela permet aux navigateurs, moteurs de recherche et technologies d’assistance (comme les lecteurs d’écran) de mieux comprendre la structure et la nature du contenu d’une page web.
+
+    Pourquoi utiliser le HTML sémantique ?
+
+    ✔ Meilleure accessibilité : Les personnes utilisant des lecteurs d'écran peuvent mieux naviguer sur le site.
+
+    ✔ Amélioration du référencement (SEO) : Google comprend mieux le contenu et l'indexe plus efficacement.
+
+    ✔ Maintenance et collaboration facilitées : Le code est plus compréhensible et organisé.
+
+    ✔ Respect des standards du web : Cela permet de créer des sites plus performants et évolutifs.
+
+- Exemples de balises sémantiques et leur utilisation
+
+Avant HTML5, on utilisait souvent des ```<div>``` pour structurer une page, sans indiquer la nature du contenu. HTML5 a introduit plusieurs balises sémantiques qui remplacent ces ```<div>``` de manière plus explicite.
+    
+|Balise     | Signification                                  |
+|-----------|------------------------------------------------|
+|```<header>```	| En-tête d’une page ou d’une section            |
+|```<nav>```	    | Menu de navigation                             |
+|```<section>```	| Regroupe un contenu thématique|
+|```<article>```	| Contenu autonome (ex : un article de blog)|
+|```<aside>```	| Contenu secondaire (ex : une barre latérale)|
+|```<footer>```	| Pied de page|
+|```<main>```	    | Contenu principal de la page|
+|```<figure>```	| Image ou média avec une légende (`<figcaption>`)|
+
+# 🔗 Liens utiles
 - [MDN HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
 - [W3Schools HTML](https://www.w3schools.com/html/)
 

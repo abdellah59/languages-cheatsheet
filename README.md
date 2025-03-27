@@ -1,4 +1,5 @@
-# Langages : CheatSheet
+
+# Langages : CheatSheet 
 
 ## [HTML](HTML.md)
 
@@ -6,12 +7,11 @@
 
 ## CSS
 
-➡ Permet de styliser la page (couleurs, polices, mises en page…).
+➡ Permet de styliser la page pour avoir une mise en forme (couleurs, polices, mises en page…).
 
 ## JavaScript
 
-➡ Ajoute du dynamisme (animations, interactions utilisateur...).
-
+➡ Ajoute du dynamisme sur son projet (animations, interactions utilisateur...).
 
 ## Auteurs
 
