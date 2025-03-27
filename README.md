@@ -1,3 +1,4 @@
+
 # Langages : CheatSheet 
 
 ## [HTML](HTML.md)
@@ -12,8 +13,7 @@
 
 ➡ Ajoute du dynamisme sur son projet (animations, interactions utilisateur...).
 
-
-## Auteurs 
+## Auteurs
 
 #### Abdellah
 
