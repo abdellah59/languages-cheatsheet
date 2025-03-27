@@ -1,4 +1,4 @@
-# Langages : CheatSheet
+# Langages : CheatSheet 
 
 ## [HTML](HTML.md)
 
@@ -10,10 +10,10 @@
 
 ## JavaScript
 
-➡ Ajoute du dynamisme (animations, interactions utilisateur...).
+➡ Ajoute du dynamisme sur son projet (animations, interactions utilisateur...).
 
 
-## Auteurs
+## Auteurs 
 
 #### Abdellah
 
