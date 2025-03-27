@@ -153,15 +153,28 @@ Un formulaire est défini par```<form>```. Il permet d’envoyer des données vi
 </select>
 ```
 
-🎯 Boutons radio (choix unique)
-
+- Boutons radio (choix unique)
+```html
 <input type="radio" id="homme" name="genre" value="homme">
 <label for="homme">Homme</label>
 
 <input type="radio" id="femme" name="genre" value="femme">
 <label for="femme">Femme</label>
+```
+    📌 Tous les boutons radio d’un même groupe doivent avoir le même name pour un choix unique.
 
-📌 Tous les boutons radio d’un même groupe doivent avoir le même name pour un choix unique.
+
+- Checkbox (choix multiples)
+```html
+<input type="checkbox" id="voiture" name="transport" value="voiture">
+<label for="voiture">Voiture</label>
+
+<input type="checkbox" id="velo" name="transport" value="velo">
+<label for="velo">Vélo</label>
+```
+    📌 Chaque checkbox fonctionne indépendamment contrairement aux boutons radio.
+
+
 
 
 ## 🔗 Liens utiles
