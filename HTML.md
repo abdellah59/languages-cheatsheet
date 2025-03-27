@@ -217,8 +217,20 @@ Le HTML sémantique désigne une approche du HTML où l'on utilise des balises a
 
     ✔ Respect des standards du web : Cela permet de créer des sites plus performants et évolutifs.
 
+- Exemples de balises sémantiques et leur utilisation
 
+Avant HTML5, on utilisait souvent des ```<div>``` pour structurer une page, sans indiquer la nature du contenu. HTML5 a introduit plusieurs balises sémantiques qui remplacent ces ```<div>``` de manière plus explicite.
     
+|Balise     | Signification                                  |
+|-----------|------------------------------------------------|
+|```<header>```	| En-tête d’une page ou d’une section            |
+|```<nav>```	    | Menu de navigation                             |
+|```<section>```	| Regroupe un contenu thématique|
+|```<article>```	| Contenu autonome (ex : un article de blog)|
+|```<aside>```	| Contenu secondaire (ex : une barre latérale)|
+|```<footer>```	| Pied de page|
+|```<main>```	    | Contenu principal de la page|
+|```<figure>```	| Image ou média avec une légende (`<figcaption>`)|
 
 # 🔗 Liens utiles
 - [MDN HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
