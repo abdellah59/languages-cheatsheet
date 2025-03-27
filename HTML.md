@@ -175,7 +175,12 @@ Un formulaire est défini par```<form>```. Il permet d’envoyer des données vi
     📌 Chaque checkbox fonctionne indépendamment contrairement aux boutons radio.
 
 
+## 6. Insérer une Vidéo en HTML
 
+- Vidéo YouTube
+```html 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ID_DE_LA_VIDEO" allowfullscreen></iframe>
+```
 
 ## 🔗 Liens utiles
 - [MDN HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
