@@ -19,7 +19,6 @@
 
 - **GitHub**: [Abdellah](https://github.com/abdellah59)
 
-
 ### Outils Utilisés
 
 - ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
